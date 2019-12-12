@@ -1,7 +1,7 @@
 {
-  "name": "materials-sandbox",
+  "name": "webgl-blank",
   "version": "1.0.0",
-  "description": "materials-Sandbox",
+  "description": "webgl-blank",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
@@ -9,8 +9,13 @@
     "build:stats": "cross-env NODE_ENV=production webpack --json > stats.json",
     "dev:stats": "webpack --json > stats.json"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "blank", "shader-loader"],
+  "homepage": "https://github.com/0saw/webpack-blank#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/0saw/webpack-blank.git"
+  },
+  "author": "Leonid Simusev <1water4you@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.7.3",
